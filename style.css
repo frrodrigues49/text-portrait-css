@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #151515;
+}
+
+div {
+  background: url(./foto.jpg) no-repeat center;
+  background-size: cover;
+  width: 800px;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 255, .15);
+  transition: 200ms all ease-in-out;
+  font-size: 12px;
+}
+
+div:hover { 
+  color: #cecece;
+}
